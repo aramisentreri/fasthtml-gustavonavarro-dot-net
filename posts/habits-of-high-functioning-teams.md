@@ -5,6 +5,8 @@ summary: Notes on psychological safety, hygiene, redistribution of experience, a
 slug: habits-of-high-functioning-teams
 ---
 
+> **A note up front:** These are excerpts from other people's writing that resonated with me — not my own words. I'm collecting them here because they capture ideas I want to keep close, not because I want to pass them off as mine.
+
 ## High psychological safety
 
 A few behaviors I've come to associate with healthy teams:
