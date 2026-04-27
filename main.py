@@ -118,9 +118,12 @@ def hero_section():
             P("Mathematician · Physicist · Software · Founder, Divergent Physics",
               cls="hero-tagline"),
         ),
-        Img(src="profile_images/IMG_4033_compressed.jpg",
-            alt="Gustavo Navarro",
-            cls="hero-portrait"),
+        Div(
+            Img(src="profile_images/profile_with_son.jpg",
+                alt="Gustavo Navarro",
+                cls="hero-portrait"),
+            cls="portrait-frame",
+        ),
         cls="hero",
     )
 
