@@ -75,7 +75,7 @@ ARCHIVED_POSTS = [
 ]
 
 
-app, rt = fast_app(
+app = fast_app(
     pico=False,
     hdrs=(
         Meta(charset="UTF-8"),
@@ -89,7 +89,10 @@ app, rt = fast_app(
         Link(rel="stylesheet", href="/styles.css"),
     ),
     live=True,
-)
+)[0]
+
+rt = app.route
+
 
 
 def project_card(project):
