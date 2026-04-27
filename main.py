@@ -13,7 +13,7 @@ from text_content import (
     welcome_intro_p2,
 )
 
-DIVERGENT_URL = "https://divergenceai.xyz"
+DIVERGENT_URL = "https://getdivergence.com"
 
 FONTS_LINK = (
     "https://fonts.googleapis.com/css2"
@@ -183,10 +183,10 @@ def contact_section():
         P("Open to collaboration, advising, and interesting problems."),
         Ul(
             Li(Span("Email", cls="label"),
-               A("gustavo@divergenceai.xyz",
-                 href="mailto:gustavo@divergenceai.xyz")),
+               A("gustavo@getdivergence.com",
+                 href="mailto:gustavo@getdivergence.com")),
             Li(Span("Company", cls="label"),
-               A("divergenceai.xyz", href=DIVERGENT_URL,
+               A("getdivergence.com", href=DIVERGENT_URL,
                  target="_blank", rel="noopener noreferrer")),
             Li(Span("GitHub", cls="label"),
                A("@aramisentreri",
