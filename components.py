@@ -1,25 +1,28 @@
-
 from fasthtml.common import *
 
-header = Header(
-                Div(
-                    Nav(
-                        Div(A('Gustavo Navarro', href="/", style="text-decoration: none"), cls='logo'),
-                        Ul(
-                            Li(
-                                A('Projects', href='#projects')
-                            ),
-                            Li(
-                                A('About', href='#about')
-                            ),
-                            Li(
-                                A('Blog', href="/blog")
-                            ),
-                            Li(
-                                A('Contact', href='#contact')
-                            )
-                        )
-                    ),
-                    cls='container'
-                )
-            )
+
+def site_header():
+    return Header(
+        Div(
+            Nav(
+                Div(A("Gustavo Navarro", href="/"), cls="logo"),
+                Ul(
+                    Li(A("Work", href="/#work")),
+                    Li(A("About", href="/#about")),
+                    Li(A("Writing", href="/blog")),
+                    Li(A("Contact", href="/#contact")),
+                    cls="nav-list",
+                ),
+            ),
+            cls="container",
+        )
+    )
+
+
+def site_footer(year):
+    return Footer(
+        Div(
+            P(f"© {year} Gustavo Navarro"),
+            cls="container",
+        )
+    )
